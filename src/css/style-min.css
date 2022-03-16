@@ -340,6 +340,9 @@ template {
 .header-control-language {
   background: none;
   appearance: none;
+  width: 170px;
+  overflow: hidden;
+  background: url('/assets/img/arrow_down.svg') no-repeat right;
 }
 
 /*# sourceMappingURL=style-min.css.map */
