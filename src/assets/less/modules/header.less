@@ -2,10 +2,23 @@
     display: none;
 }
 
+.header-item-accordeon:checked + .header-item-accordeon-label{
+    color: blue;
+}
 .header-item-accordeon:checked ~ .header-sub-menu {
     display: block;
 }
 
 .header-item-accordeon {
     
+}
+
+.header-control-language {
+    background: none;
+    appearance: none;
+    width: 170px;  
+    appearance: none; -убираем стандартную стрелку
+    overflow: hidden;
+    background: url('../img/Rectangle.png') no-repeat right;  -вставляем нужную
+  }
 }

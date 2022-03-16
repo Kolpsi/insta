@@ -331,8 +331,15 @@ template {
 .header-sub-menu {
   display: none;
 }
+.header-item-accordeon:checked + .header-item-accordeon-label {
+  color: blue;
+}
 .header-item-accordeon:checked ~ .header-sub-menu {
   display: block;
+}
+.header-control-language {
+  background: none;
+  appearance: none;
 }
 
 /*# sourceMappingURL=style-min.css.map */
